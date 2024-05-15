@@ -37,13 +37,11 @@ Develop a comprehensive wellness website aimed at promoting health and well-bein
 - **[TO BE DISCUSSED BY ETHICS COMMITTEE]**
 
 ### Ethical Considerations
-- Ensure privacy and data security for all users.
-- Provide accurate and scientifically-backed information.
-- Be mindful of cultural sensitivities and inclusivity in content.
-- Avoid promoting unrealistic body images or unhealthy habits.
+- **[TO BE DISCUSSED BY ETHICS COMMITTEE]**
 
 ### Technology and Tools
-- **[TO BE DISCUSSED BY ETHICS COMMITTEE]**
+- **Copilot:** Assisting in coding and debugging.
+- **Frameworks:** Django for backend development.
 
 ### Contact Information
 - Project Supervisor: [Name]
