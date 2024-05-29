@@ -1,1 +1,1 @@
-# AIEthics
+# AI Augmented Bootcamp
