@@ -1,11 +1,9 @@
 # Project Brief: Wellness Website Development
 
----
-
 ## Project Title: Wellness Website
 
 ### Project Overview
-Develop a comprehensive wellness website aimed at promoting health and well-being among students. The website should offer resources, tools, and information to help users maintain a balanced lifestyle. Key features will include articles, a community forum, and interactive tools like a meal planner and workout tracker.
+Develop a front-end for a wellness website aimed at promoting health and well-being among students. The website should offer easily accessible resources and information to help users maintain a balanced lifestyle. Key features will include articles, a blog, and a contact form.
 
 ### Target Audience
 - College and university students
@@ -14,7 +12,6 @@ Develop a comprehensive wellness website aimed at promoting health and well-bein
 ### Project Goals
 - Provide accessible, reliable information on various aspects of wellness (e.g., mental health, physical fitness, nutrition).
 - Create an engaging and user-friendly interface.
-- Foster a supportive online community through forums and interactive features.
 - Ensure the website is accessible and inclusive to users of all backgrounds and abilities.
 
 ### Key Features
@@ -25,13 +22,11 @@ Develop a comprehensive wellness website aimed at promoting health and well-bein
 
 2. **Articles and Resources:**
    - Categorized articles on wellness topics.
-   - Expert interviews and guest posts.
-   - Resource library with downloadable content (e.g., guides, checklists).
+   - Blog section with posts on wellness tips and experiences.
 
-3. **Community Forum:**
-   - Discussion boards for various topics (e.g., stress management, diet tips).
-   - Peer support and advice.
-   - Moderation guidelines to ensure a respectful and supportive environment.
+3. **Contact Form:**
+   - Form for users to submit questions or feedback.
+   - Validation to ensure all required fields are completed.
 
 ### Design and Usability
 - **[TO BE DISCUSSED BY ETHICS COMMITTEE]**
@@ -41,7 +36,7 @@ Develop a comprehensive wellness website aimed at promoting health and well-bein
 
 ### Technology and Tools
 - **Copilot:** Assisting in coding and debugging.
-- **Frameworks:** Django for backend development.
+- **Frameworks:** HTML, CSS, and Bootstrap for front-end development.
 
 ### Contact Information
 - Project Supervisor: [Name]
