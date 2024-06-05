@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3rem 0;
 }
 
+.container:first-of-type {
+    padding-top: 2rem;
+}
+
+main {
+    margin: 2rem 0;
+}
+
 .footer {
     background-color: var(--secondary-color);
     color: var(--light-color);
