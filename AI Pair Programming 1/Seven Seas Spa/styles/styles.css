@@ -17,16 +17,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light {
-    background-color: var(--light-color);
+    background-color: #ffffff;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--light-color);
-    padding: 3rem 0;
+    padding: 8rem 0;
 }
+
 
 .container:first-of-type {
     padding-top: 2rem;
