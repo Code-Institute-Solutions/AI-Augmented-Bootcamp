@@ -35,6 +35,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8rem 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
 
 .container:first-of-type {
     padding-top: 2rem;
