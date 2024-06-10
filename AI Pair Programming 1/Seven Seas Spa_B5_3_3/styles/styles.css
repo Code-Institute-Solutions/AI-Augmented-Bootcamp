@@ -104,8 +104,14 @@ body {
     height: 100px;
 }
 
+/* Adds a top margin to submit buttons to ensure proper spacing from preceding elements. */
 button[type="submit"] {
     margin-top: 15px;
+}
+
+/* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
+.rounded-image {
+    border-radius: 15px; /* Adjust the px value as needed */
 }
 
 @media (max-width: 992px) {
