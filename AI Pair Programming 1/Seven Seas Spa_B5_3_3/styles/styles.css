@@ -64,6 +64,9 @@ body {
     color: var(--light-color);
 }
 
+.footer i.bi {
+    color: #FFEBD4;
+}
 /* Add padding to the top of the first container */
 .container:first-of-type {
     padding-top: 2rem;
