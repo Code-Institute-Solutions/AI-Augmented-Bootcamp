@@ -45,7 +45,7 @@ This CSS rule adds padding to the left and right of the body and main elements.
 This ensures that the content is not right up against the viewport on small screens.
 */
 main {
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin: 2rem 0;
 }
 
