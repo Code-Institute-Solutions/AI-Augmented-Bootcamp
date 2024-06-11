@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+                <img src="assets/images/logo.png" alt="Seven Seas Spa Logo" width="30" height="30" class="d-inline-block align-top">
                 Seven Seas Spa
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -59,20 +59,26 @@
                     <div class="border p-3 rounded shadow bg-white">
                         <h2 class="display-5">Contact Us</h2>
                         <p class="lead">We're here to help and answer any question you might have. We look forward to hearing from you 🙂</p>
-                        <form action="thankyou.html">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                        <form action="thankyou.html" novalidate>
+                            <fieldset>
+                                <legend class="visually-hidden">Contact form</legend>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Full Name" required aria-describedby="nameHelp">
+                                    <small id="nameHelp" class="form-text text-muted">Please enter your full name.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email Address" required aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message Here" required aria-describedby="messageHelp"></textarea>
+                                    <small id="messageHelp" class="form-text text-muted">Enter your message or inquiry.</small>
+                                </div>
+                                <button type="submit" class="btn btn-primary" aria-label="Submit contact form">Submit</button>
+                            </fieldset>
                         </form>
                     </div>
                 </section>
@@ -87,10 +93,10 @@
                     <p>© 2022 Seven Seas Spa</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" class="me-2"><i class="bi bi-facebook"></i></a>
-                    <a href="https://x.com/codeinstitute" target="_blank" class="me-2"><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.instagram.com/codeinstitute/" target="_blank" class="me-2"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/school/code-institute/" target="_blank" class="me-2"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page" class="me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/codeinstitute" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" class="me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/codeinstitute/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" class="me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/code-institute/" target="_blank" rel="noopener noreferrer" aria-label="Connect with us on LinkedIn" class="me-2"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>

@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8rem 0;
 }
 
-
 /* 
 This CSS rule adds padding to the left and right of the body and main elements. 
 This ensures that the content is not right up against the viewport on small screens.
@@ -65,13 +64,13 @@ body {
 }
 
 .footer i.bi {
-    color: #FFEBD4;
+    color: #FFEBD4; /* This matches the --light-color variable */
 }
+
 /* Add padding to the top of the first container */
 .container:first-of-type {
     padding-top: 2rem;
 }
-
 
 /* Add padding to the navbar brand and nav links */
 .navbar-brand {
@@ -85,7 +84,7 @@ body {
 /* Highlight the active nav link */
 .nav-item.active .nav-link {
     color: #000000; /* Change to the color you want */
-    font-weight:bolder; /* Makes the text bold */
+    font-weight: bolder; /* Makes the text bold */
 }
 
 /* Style the service cards */
@@ -107,6 +106,12 @@ body {
 /* Adds a top margin to submit buttons to ensure proper spacing from preceding elements. */
 button[type="submit"] {
     margin-top: 15px;
+}
+
+/* Enhances keyboard navigation by providing a visible blue outline around links and buttons when they are focused. This aids in accessibility by indicating which element is currently selected. */
+a:focus, button:focus, [tabindex='0']:focus {
+    outline: 2px dashed #007bff; /* Bootstrap primary color for example */
+    outline-offset: 4px;
 }
 
 /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
