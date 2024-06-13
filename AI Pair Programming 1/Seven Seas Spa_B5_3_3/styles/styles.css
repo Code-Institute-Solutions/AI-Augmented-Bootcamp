@@ -119,12 +119,51 @@ a:focus, button:focus, [tabindex='0']:focus {
     border-radius: 15px; /* Adjust the px value as needed */
 }
 
+/* Adjustments for medium-sized devices like tablets */
 @media (max-width: 992px) {
+    /* Increases top margin for h2 elements with class 'display-5' */
     h2.display-5 {
         margin-top: 20px;
     }
 
+    /* Increases bottom margin for anchor elements with class 'btn' */
     a.btn {
         margin-bottom: 20px;
+    }
+}
+
+/* Adjustments for small-sized devices like mobile phones */
+@media (max-width: 768px) {
+    .hero-part-1 {
+        display: block; /* Ensures "Welcome to" is on its own line */
+        font-size: 0.8em; /* Makes "Welcome to" smaller. Adjust the value as needed */
+    }
+
+    .hero-part-2 {
+        display: block; /* Ensures the rest of the title is on its own line */
+    }
+
+    .lead {
+        font-size: smaller; /* Adjusts the font size for lead paragraphs */
+    }
+}
+
+/* Mobile devices adjustments */
+@media (max-width: 768px) {
+    /* Adjusts the font size within the contact form for better readability on smaller screens */
+    .contact-section .form-control, .contact-section .form-group label, .contact-section .btn {
+        font-size: 14px; /* Reduces the font size */
+    }
+
+    /* Adds padding around the contact form to prevent it from touching the viewport edges */
+    .contact-section {
+        padding: 20px; /* Adds padding */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Reduces font size for elements with class 'lead' on small devices */
+    .lead {
+        font-size: smaller; /* Or specify a specific font size, e.g., 14px */
     }
 }
