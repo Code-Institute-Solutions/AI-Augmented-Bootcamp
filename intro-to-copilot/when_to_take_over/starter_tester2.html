@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Description" content="Enter your description here" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+	<title>My Personal Website</title>
+	<style>
+		.hero {
+			position: relative;
+			height: 50vh; /* Adjust height as needed */
+			background-image: url('https://images.unsplash.com/photo-1539634936668-036d13a9cc3b?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+			background-size: cover; /* Cover ensures the background image fully covers the element */
+			background-position: center; /* Center the background image */
+			background-repeat: no-repeat; /* Prevent the image from repeating */
+		}
+
+		.hero-content {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			color: white;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: 'Bebas Neue', sans-serif;
+		}
+
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #FDF5E6;
+			/* pale straw yellow */
+		}
+
+		footer {
+			background-color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<h3>I'm Alex</h3>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero">
+		<div class="hero-content">
+			<h1>My Personal Website</h1>
+		</div>
+	</section>
+	<div class="container my-3">
+		<div class="row">
+			<div class="col my-3">
+				<h2><i class="fas fa-user-circle"></i> This is Me</h2>
+				<p>Hello! I'm Alex, a passionate and neurodiverse full-stack developer with a boundless enthusiasm for
+					technology.</p>
+				<p>I have an innate ability to see patterns and connections that often go unnoticed, allowing me to
+					craft innovative and efficient solutions to complex problems. My unique perspective fuels a
+					relentless curiosity and a deep passion for continuous learning, keeping me ahead of industry trends
+					and constantly refining my skills. Whether I'm diving into the intricacies of backend architecture
+					or bringing dynamic frontends to life, my dedication and creativity shine through.</p>
+				<p>I'm excited to contribute my talents and perspectives to create exceptional digital experiences.</p>
+			</div>
+			<div class="col my-3">
+				<h2><i class="fas fa-project-diagram"></i> My Projects</h2>
+				<ul>
+					<li><strong>Smart Home Automation System:</strong> Created a comprehensive IoT-based home automation
+						system that allows users to control and monitor their home remotely. The project included
+						developing both the backend infrastructure and the user-friendly mobile application.</li>
+					<li><strong>Mental Health Support App:</strong> Designed and built a mobile app aimed at providing
+						mental health resources and support. The app features a chatbot, a community forum for peer
+						support, and personalized recommendations based on user input.</li>
+					<li><strong>Interactive Learning Platform for Kids:</strong> Developed an engaging, interactive
+						educational platform for children, featuring gamified learning experiences. The project involved
+						creating a robust backend to manage user data and progress tracking, as well as a vibrant,
+						intuitive frontend.</li>
+				</ul>
+			</div>
+			<div class="col my-3">
+				<h2><i class="fas fa-dumbbell"></i> My Ethos</h2>
+				<ul>
+					<li><strong>Innovative Problem-Solving:</strong> I approach challenges with a unique perspective,
+						leveraging my neurodiverse insights to develop creative and efficient solutions that push the
+						boundaries of conventional thinking.</li>
+					<li><strong>Continuous Learning and Adaptability:</strong> Driven by an insatiable curiosity and
+						passion for technology, I am committed to staying ahead of industry trends and continuously
+						refining my skills, ensuring I bring the latest knowledge and techniques to every project.</li>
+					<li><strong>Dedication to Excellence:</strong> My work is characterized by a deep dedication to
+						quality and excellence, consistently striving to deliver the best possible outcomes through
+						meticulous attention to detail and a relentless pursuit of perfection.</li>
+				</ul>
+			</div>
+			<div class="col my-3">
+				<h2><i class="fas fa-dumbbell"></i> Contact me</h2>
+				<p>Feel free to reach out to me if you have any questions or would like to collaborate on a project. I'm
+					always open to new opportunities and connections!</p>
+				<form>
+					<div class="mb-3">
+						<label for="name" class="form-label">Name</label>
+						<input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+						<div id="nameHelp" class="form-text">Please enter your name.</div>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+						<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+					</div>
+					<div class="mb-3">
+						<label for="message" class="form-label">Message</label>
+						<textarea class="form-control" id="message" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer class="text-center p-3" style="background-color: #333; color: white;">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4>Follow me on social media</h4>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#" style="color: white;"><i
+									class="fab fa-facebook fa-2x"></i></a></li>
+						<li class="list-inline-item"><a href="#" style="color: white;"><i
+									class="fab fa-twitter fa-2x"></i></a></li>
+						<li class="list-inline-item"><a href="#" style="color: white;"><i
+									class="fab fa-instagram fa-2x"></i></a></li>
+						<li class="list-inline-item"><a href="#" style="color: white;"><i
+									class="fab fa-linkedin fa-2x"></i></a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Contact me</h4>
+					<ul class="list-unstyled">
+						<li><i class="fas fa-envelope"></i> email@example.com</li>
+						<li><i class="fas fa-phone"></i> 123-456-7890</li>
+						<li><i class="fas fa-map-marker-alt"></i> 123 Main St, City, State</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

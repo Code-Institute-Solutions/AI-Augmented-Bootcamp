@@ -1,0 +1,27 @@
+.footer-style {
+    background-color: #333;
+    color: white;
+}
+
+.social-icons,
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icon-item, .contact-item {
+    margin-right: 10px;
+    color: white;
+}
+
+.social-icon-item {
+    display: inline-block;
+}
+
+.contact-item {
+    display: block;
+}
+
+.social-icon-link {
+    color: white;
+}
