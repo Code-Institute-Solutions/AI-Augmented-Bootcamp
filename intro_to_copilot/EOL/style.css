@@ -6,6 +6,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warming filter gradient */
 }
 
 .content {
