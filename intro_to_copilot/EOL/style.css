@@ -9,6 +9,12 @@ body {
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warming filter gradient */
 }
 
+.navbar-brand {
+    margin-right: 1rem; /* Adjust the right margin */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+
 .content {
     flex: 1 0 auto;
 }
