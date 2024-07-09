@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Desktop/Code Institute/AI Augmented/5 AI Pair Programming 2 - Typing Speed Test/MVP/SpeedType_Copilot_v2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AI-Augmented-Bootcamp"
+	}
+}
