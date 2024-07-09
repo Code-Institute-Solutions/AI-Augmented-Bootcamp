@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../SpeedType_Copilot_v2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Web Example"
+		},
+		{
+			"path": "../../../4 AI Pair Programming 1 - A Bootstrap Resume/Bootstrap website"
+		},
+		{
+			"path": "../../../../../../VSCode/AI-Augmented-Bootcamp/intro_to_copilot/when_to_take_over"
+		},
+		{
+			"path": "../../../../../../VSCode/AI-Augmented-Bootcamp/AI_pair_programming_1/Seven Seas Spa_B5_3_3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SpeedType_Copilot_v1"
+	}
+}
