@@ -22,10 +22,10 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#home">Home</a>
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link" href="instructions.html">Instructions</a>
 					</li>
 				</ul>
 			</div>
@@ -41,7 +41,7 @@
 		</div>
 	</section>
 
-	<div class="container">
+	<div class="container content-wrap">
 		<!-- Instructions -->
 		<section id="instructions" class="instructions mb-5">
 			<h2>Instructions</h2>
@@ -59,7 +59,7 @@
 			<p>Good luck, and happy typing!</p>
 		</section>
 		<!-- Choose difficulty level -->
-		<section id="settings" class="mb-5">
+		<section id="settings" class="typing-area-shadow mb-5">
 			<h2>Settings</h2>
 			<div class="row mb-3">
 				<div class="col-md-6">
@@ -77,6 +77,9 @@
 						<option value="60" selected>1 minute</option>
 						<option value="120">2 minutes</option>
 					</select>
+				</div>
+				<div id="buttons" class="text-center mt-4">
+					<button id="start-button" class="btn btn-primary">Start Test</button>
 				</div>
 			</div>
 		</section>
@@ -110,11 +113,6 @@
 						<p><span id="accuracy">0%</span></p>
 					</div>
 				</div>
-			</div>
-			<!-- buttons -->
-			<div id="buttons" class="text-center mt-4">
-				<button id="start-button" class="btn btn-primary">Start Test</button>
-				<button id="share-button" class="btn btn-success" style="display: none;">Share Results</button>
 			</div>
 		</section>
 	</div>
