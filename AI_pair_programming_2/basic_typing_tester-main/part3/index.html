@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Typing Speed Tester</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+	<style>
+	.correct {
+		color: green;
+	}
+
+	.incorrect {
+		color: red;
+	}
+	</style>
+</head>
+<body>
+	<header class="bg-primary text-white text-center py-4">
+		<h1>Typing Speed Tester</h1>
+		<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#instructionsModal">
+			<i class="fa fa-info-circle"></i> Instructions
+		</button>
+	</header>
+
+	<main class="container my-5">
+		<select id="difficulty-select" class="form-select my-3">
+			<option value="easy">Easy</option>
+			<option value="medium">Medium</option>
+			<option value="difficult">Difficult</option>
+		</select>
+		<section id="test-area">
+			<p class="lead">Test your typing speed by typing the text shown below:</p>
+			<!-- Placeholder for typing test content -->
+			<div id="sample-text" class="border p-3 my-3">
+				<!-- Sample text to type will go here -->
+			</div>
+			<textarea class="form-control" id="typing-input" rows="6" placeholder="Start typing here..."></textarea>
+			<div class="results mt-3">
+				<div class="row">
+					<div class="col text-center">
+						<h5>Time</h5>
+						<p id="time-result">0s</p>
+					</div>
+					<div class="col text-center">
+						<h5>WPM</h5>
+						<p id="wpm-result">0</p>
+					</div>
+					<div class="col text-center">
+						<h5>Accuracy</h5>
+						<p id="accuracy-result">0%</p>
+					</div>
+					<div class="col text-center">
+						<h5>Previous WPM</h5>
+						<p id="previous-wpm-result">No previous result</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="bg-light text-center text-lg-start">
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			© 2023 Typing Speed Tester
+		</div>
+	</footer>
+	<div class="modal fade" id="instructionsModal" tabindex="-1" aria-labelledby="instructionsModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="instructionsModalLabel">Typing Test Instructions</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Follow these steps to complete the typing test:</p>
+					<ul>
+						<li>Select the difficulty level of the test.</li>
+						<li>Start typing the text shown in the box above.</li>
+						<li>Your typing speed, accuracy, and time will be displayed after completion.</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+	<script src="tester.js"></script>
+</body>
+</html>
