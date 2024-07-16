@@ -1,0 +1,8 @@
+Prompt 1: Create a user story for a static HTML and CSS website for spa treatments. Use the format 'AS A <persona> I WANT TO <action> SO THAT I CAN <result>. The user needs are: Ease of Use, Service Information, Contact Accessibility, Credibility'
+
+Prompt 2: For each of the user stories, create detailed acceptance criteria and tasks. 
+
+OR 
+
+Combined Prompt: Create a user story for a static HTML and CSS website for spa treatments. Use the format ‘AS A  I WANT TO  SO THAT I CAN .’ The user needs are: Ease of Use, Service Information, Contact Accessibility, Credibility. For each user story, create detailed acceptance criteria and tasks.
+
