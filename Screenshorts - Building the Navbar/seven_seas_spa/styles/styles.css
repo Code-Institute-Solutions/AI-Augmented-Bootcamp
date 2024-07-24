@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #007bff; /* Custom background color */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* Custom font color */
+}
+
+.nav-link:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+}
