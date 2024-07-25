@@ -127,3 +127,42 @@ As a website visitor, I want to learn about the spa's mission, values, and team 
 **Tasks:**
 - Design the layout for the About Us page.
 - Write content for the spa's mission, values, and team members.
+
+## Could Haves
+
+### Title: Newsletter Sign-Up Form
+
+**User Story:**
+As a Regular Customer, I want to sign up for newsletters and updates so that I can stay informed about special offers, new services, and upcoming events.
+
+**Acceptance Criteria:**
+- The website contains a sign-up form for the Seven Seas Spa’s newsletter.
+- The sign-up form is placed in the footer on every page so that users can easily find it.
+
+**Tasks:**
+- Integrate the newsletter sign-up form into the website footer.
+- Ensure the sign-up form includes fields for the user’s name and email address.
+- Style the form to match the website’s overall design.
+- Test the form on various devices to ensure it is easily accessible and functional.
+
+---
+
+### Title: Integrating a Blog Section into the Website
+
+**User Story:**
+As a website visitor, I want to read blog posts about wellness and spa services so that I can gain additional insights and tips related to my interests.
+
+**Acceptance Criteria:**
+- The website includes a blog section accessible from the main navigation bar.
+- Each blog post includes a title, author name, publication date, and content.
+- Blog posts are written in a clear, engaging, and professional tone.
+- The blog section and posts are consistent with the overall design and theme of the website.
+- The blog section and posts are responsive and look good on different screen sizes (mobile, tablet, desktop).
+
+**Tasks:**
+- Design the layout for the blog section and individual blog posts.
+- Write initial blog posts on topics related to wellness and spa services.
+- Ensure the content is clear, engaging, and professional.
+- Ensure the design of the blog section and posts is consistent with the website’s overall theme.
+- Make the blog section and posts responsive for different screen sizes.
+
