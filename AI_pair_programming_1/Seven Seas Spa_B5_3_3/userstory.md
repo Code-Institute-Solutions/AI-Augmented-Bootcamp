@@ -31,7 +31,7 @@ As a Site User, I want to understand the purpose of the Seven Seas Spa website i
 
 **Tasks:**
 - Design and implement a hero section with a headline and description.
-- Add a "Learn More" button linking to the Services page.
+- Add a "Contact Us" button linking to the Contact page.
 - Ensure the hero section is visually appealing and aligns with the website's theme.
 
 ---
