@@ -66,7 +66,7 @@ As a website visitor, I want to read testimonials from previous clients so that 
 - The testimonials section is responsive and looks good on different screen sizes (mobile, tablet, desktop).
 
 **Tasks:**
-- Collect authentic testimonials from previous clients, including their names and photos (we will use Gen AI for this project).
+- Collect testimonials from previous clients, including their names and photos (we will use Gen AI for this project).
 - Write and format the testimonials to highlight positive client experiences.
 - Add the testimonials section to the homepage.
 - Ensure the testimonials section is visually appealing and readable.
