@@ -27,7 +27,7 @@ As a Site User, I want to understand the purpose of the Seven Seas Spa website i
 **Acceptance Criteria:**
 - A hero section is present at the top of the homepage.
 - The hero section includes a welcoming headline and a brief description of the services.
-- There is a prominent "Learn More" button that directs users to the Services page.
+- There is a prominent "Contact Us" button that directs users to the Contact page.
 
 **Tasks:**
 - Design and implement a hero section with a headline and description.
