@@ -1,6 +1,6 @@
 ## Must Haves
 
-### Title: Create a Responsive Navbar and Footer
+### Title: User-Friendly Navigation and Responsive Design
 
 **User Story:**
 As a Site User, I want to navigate easily through the website so that I can find the information I need.
@@ -19,7 +19,7 @@ As a Site User, I want to navigate easily through the website so that I can find
 
 ---
 
-### Title: Adding a High-Quality Hero Image to Enhance User Experience
+### Title: High-Quality Hero Image and Engaging Descriptions
 
 **User Story:**
 As a Site User, I want to understand the purpose of the Seven Seas Spa website immediately upon arrival so that I can get a visual understanding of the services offered.
@@ -27,11 +27,11 @@ As a Site User, I want to understand the purpose of the Seven Seas Spa website i
 **Acceptance Criteria:**
 - A hero section is present at the top of the homepage.
 - The hero section includes a welcoming headline and a brief description of the services.
-- There is a prominent "Learn More" button that directs users to the Services page.
+- There is a prominent "Contact Us" button that directs users to the Contact page.
 
 **Tasks:**
 - Design and implement a hero section with a headline and description.
-- Add a "Learn More" button linking to the Services page.
+- Add a "Contact Us" button linking to the Contact page.
 - Ensure the hero section is visually appealing and aligns with the website's theme.
 
 ---
@@ -53,7 +53,7 @@ As a potential customer, I want to quickly see an overview of the services offer
 
 ---
 
-### Title: Creating an Engaging Testimonial Section
+### Title: Client Testimonials
 
 **User Story:**
 As a website visitor, I want to read testimonials from previous clients so that I can trust the quality of the services offered.
@@ -66,7 +66,7 @@ As a website visitor, I want to read testimonials from previous clients so that 
 - The testimonials section is responsive and looks good on different screen sizes (mobile, tablet, desktop).
 
 **Tasks:**
-- Collect authentic testimonials from previous clients, including their names and photos (we will use Gen AI for this project).
+- Collect testimonials from previous clients, including their names and photos (we will use Gen AI for this project).
 - Write and format the testimonials to highlight positive client experiences.
 - Add the testimonials section to the homepage.
 - Ensure the testimonials section is visually appealing and readable.
@@ -74,7 +74,7 @@ As a website visitor, I want to read testimonials from previous clients so that 
 
 ---
 
-### Title: Creating a User-Friendly Contact Us Page
+### Title: Contact Us Form
 
 **User Story:**
 As a website visitor, I want a user-friendly Contact Us page so that I can easily get in touch with the spa for inquiries or appointments.
@@ -112,7 +112,7 @@ As a potential client, I want to see comprehensive details of the range of servi
 
 ---
 
-### Title: Creating a Comprehensive About Us Page
+### Title: About Us: Mission, Team, and Values
 
 **User Story:**
 As a website visitor, I want to learn about the spa's mission, values, and team so that I can feel confident in choosing their services.
@@ -127,3 +127,42 @@ As a website visitor, I want to learn about the spa's mission, values, and team 
 **Tasks:**
 - Design the layout for the About Us page.
 - Write content for the spa's mission, values, and team members.
+
+## Could Haves
+
+### Title: Newsletter Sign-Up Form
+
+**User Story:**
+As a Regular Customer, I want to sign up for newsletters and updates so that I can stay informed about special offers, new services, and upcoming events.
+
+**Acceptance Criteria:**
+- The website contains a sign-up form for the Seven Seas Spa’s newsletter.
+- The sign-up form is placed in the footer on every page so that users can easily find it.
+
+**Tasks:**
+- Integrate the newsletter sign-up form into the website footer.
+- Ensure the sign-up form includes fields for the user’s name and email address.
+- Style the form to match the website’s overall design.
+- Test the form on various devices to ensure it is easily accessible and functional.
+
+---
+
+### Title: Blog Section for Wellness Tips
+
+**User Story:**
+As a website visitor, I want to read blog posts about wellness and spa services so that I can gain additional insights and tips related to my interests.
+
+**Acceptance Criteria:**
+- The website includes a blog section accessible from the main navigation bar.
+- Each blog post includes a title, author name, publication date, and content.
+- Blog posts are written in a clear, engaging, and professional tone.
+- The blog section and posts are consistent with the overall design and theme of the website.
+- The blog section and posts are responsive and look good on different screen sizes (mobile, tablet, desktop).
+
+**Tasks:**
+- Design the layout for the blog section and individual blog posts.
+- Write initial blog posts on topics related to wellness and spa services.
+- Ensure the content is clear, engaging, and professional.
+- Ensure the design of the blog section and posts is consistent with the website’s overall theme.
+- Make the blog section and posts responsive for different screen sizes.
+
