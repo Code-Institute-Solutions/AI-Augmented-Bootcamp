@@ -1,0 +1,27 @@
+/* Set the color of the navbar brand and nav links */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+/* Set the background color of the navbar */
+.navbar-light {
+    background-color: #ffffff;
+}
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav {
+    padding-right: 1rem;
+}
+
+/* Highlight the active nav link */
+.nav-item.active .nav-link {
+    color: #000000; /* Change to the color you want */
+    font-weight: bolder; /* Makes the text bold */
+}
