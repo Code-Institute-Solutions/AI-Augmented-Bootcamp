@@ -18,3 +18,7 @@ nav.navbar {
 nav.navbar a.navbar-brand, nav.navbar a.nav-link {
     color: #3B2F2F !important; /* Custom font color */
 }
+
+nav.navbar a.nav-link.active {
+    font-weight: bold;
+}
