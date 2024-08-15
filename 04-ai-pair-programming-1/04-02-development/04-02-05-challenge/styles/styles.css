@@ -1,0 +1,169 @@
+/* Define custom colors using CSS variables */
+:root {
+    --primary-color: #FFC1A1; /* Peach */
+    --secondary-color: #6F4E37; /* Coffee */
+    --light-color: #FFEBD4; /* Almond */
+    --dark-color: #3B2F2F; /* Ebony */
+    --text-color: #3B2F2F; /* Ebony */
+}
+
+/* Apply the Handlee font to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
+}
+
+/* Set the color of the navbar brand and nav links */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+/* Set the background color of the navbar */
+.navbar-light {
+    background-color: #ffffff;
+}
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Style the hero section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--light-color);
+    padding: 8rem 0;
+}
+
+/* 
+This CSS rule adds padding to the left and right of the body and main elements. 
+This ensures that the content is not right up against the viewport on small screens.
+*/
+main {
+    /* padding: 0 10px; */
+    margin: 2rem 0;
+}
+
+/* Make the body a flex container and ensure it takes up at least the full height of the viewport */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style the footer */
+.footer {
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+.footer i.bi {
+    color: #FFEBD4; /* This matches the --light-color variable */
+}
+
+/* Add padding to the top of the first container */
+.container:first-of-type {
+    padding-top: 2rem;
+}
+
+/* Add padding to the navbar brand and nav links */
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+.navbar-nav {
+    padding-right: 1rem;
+}
+
+/* Highlight the active nav link */
+.nav-item.active .nav-link {
+    color: #000000; /* Change to the color you want */
+    font-weight: bolder; /* Makes the text bold */
+}
+
+/* Style the service cards */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Set the size of the testimonial images */
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Adds a top margin to submit buttons to ensure proper spacing from preceding elements. */
+button[type="submit"] {
+    margin-top: 15px;
+}
+
+/* Enhances keyboard navigation by providing a visible blue outline around links and buttons when they are focused. This aids in accessibility by indicating which element is currently selected. */
+a:focus, button:focus, [tabindex='0']:focus {
+    outline: 2px dashed #007bff; /* Bootstrap primary color for example */
+    outline-offset: 4px;
+}
+
+/* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
+.rounded-image {
+    border-radius: 15px; /* Adjust the px value as needed */
+}
+
+/* Adjustments for medium-sized devices like tablets */
+@media (max-width: 992px) {
+    /* Increases top margin for h2 elements with class 'display-5' */
+    h2.display-5 {
+        margin-top: 20px;
+    }
+
+    /* Increases bottom margin for anchor elements with class 'btn' */
+    a.btn {
+        margin-bottom: 20px;
+    }
+}
+
+/* Adjustments for small-sized devices like mobile phones */
+@media (max-width: 768px) {
+    .hero-part-1 {
+        display: block; /* Ensures "Welcome to" is on its own line */
+        font-size: 0.8em; /* Makes "Welcome to" smaller. Adjust the value as needed */
+    }
+
+    .hero-part-2 {
+        display: block; /* Ensures the rest of the title is on its own line */
+    }
+
+    .lead {
+        font-size: smaller; /* Adjusts the font size for lead paragraphs */
+    }
+}
+
+/* Mobile devices adjustments */
+@media (max-width: 768px) {
+    /* Adjusts the font size within the contact form for better readability on smaller screens */
+    .contact-section .form-control, .contact-section .form-group label, .contact-section .btn {
+        font-size: 14px; /* Reduces the font size */
+    }
+
+    /* Adds padding around the contact form to prevent it from touching the viewport edges */
+    .contact-section {
+        padding: 20px; /* Adds padding */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Reduces font size for elements with class 'lead' on small devices */
+    .lead {
+        font-size: smaller; /* Or specify a specific font size, e.g., 14px */
+    }
+}
